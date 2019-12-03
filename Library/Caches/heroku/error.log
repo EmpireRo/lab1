@@ -1,0 +1,115 @@
+2019-11-25T19:00:54.339Z Warning: Cannot open browser.
+2019-11-25T19:00:54.339Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-11-25T19:00:54.339Z     at showUrl (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:132:34)
+2019-11-25T19:00:54.339Z     at ChildProcess.<anonymous> (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:145:17)
+2019-11-25T19:00:54.339Z     at ChildProcess.emit (events.js:210:5)
+2019-11-25T19:00:54.339Z     at maybeClose (internal/child_process.js:1021:16)
+2019-11-25T19:00:54.339Z     at Socket.<anonymous> (internal/child_process.js:430:11)
+2019-11-25T19:00:54.339Z     at Socket.emit (events.js:210:5)
+2019-11-25T19:00:54.339Z     at Pipe.<anonymous> (net.js:658:12)
+2019-11-25T19:08:22.789Z Error: Command failed: git remote
+2019-11-25T19:08:22.789Z fatal: not a git repository (or any of the parent directories): .git
+2019-11-25T19:10:55.919Z Error: Command failed: git remote
+2019-11-25T19:10:55.919Z fatal: not a git repository (or any of the parent directories): .git
+2019/11/25 19:14:59 Error: Error opening web browser.
+Error: Exited with code 1
+
+Manually visit https://morning-sea-00040.herokuapp.com/ in your browser.
+    at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/local/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:300:26)
+    at ChildProcess.emit (events.js:210:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:210:5)
+    at Pipe.<anonymous> (net.js:658:12)
+2019-11-25T19:18:56.520Z Error: You do not have access to the app appname.
+2019-11-25T19:18:56.520Z Error ID: forbidden
+2019-11-25T19:18:56.520Z     at Function.request (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/api-client.js:93:27)
+2019/11/25 19:19:53 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2019/11/25 19:19:53 {"resource":"app","id":"not_found","message":"Couldn't find that app."}
+2019-11-28T16:58:05.311Z TypeError: Cannot convert undefined or null to object
+2019-11-28T16:58:05.311Z     at Function.keys (<anonymous>)
+2019-11-28T16:58:05.311Z     at Index.run (/usr/local/lib/heroku/node_modules/@heroku-cli/plugin-local/lib/commands/local/index.js:29:36)
+2019-11-28T16:58:05.311Z     at Index._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:31)
+2019-12-01T19:44:58.277Z Warning: Toolbelt is not a heroku command.
+2019-12-01T19:44:58.278Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-12-01T19:44:58.278Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2019-12-01T19:44:58.278Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2019-12-01T19:44:58.278Z     at async /usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2019-12-01T19:44:58.278Z     at async Promise.all (index 0)
+2019-12-01T19:44:58.278Z     at async Promise.all (index 33)
+2019-12-01T19:44:58.278Z     at async Config.runHook (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2019-12-01T19:44:58.278Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2019-12-01T19:44:58.278Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-12-01T19:44:58.278Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-12-01T19:45:03.191Z Error: Run heroku help for a list of available commands.
+2019-12-01T19:45:03.191Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-12-01T19:45:03.191Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:113:30)
+2019-12-01T19:45:03.191Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:39:10)
+2019-12-01T19:45:26.304Z Warning: Toolbelt is not a heroku command.
+2019-12-01T19:45:26.304Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-12-01T19:45:26.304Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2019-12-01T19:45:26.304Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2019-12-01T19:45:26.304Z     at async /usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2019-12-01T19:45:26.304Z     at async Promise.all (index 0)
+2019-12-01T19:45:26.304Z     at async Promise.all (index 33)
+2019-12-01T19:45:26.304Z     at async Config.runHook (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2019-12-01T19:45:26.304Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2019-12-01T19:45:26.304Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-12-01T19:45:26.304Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-12-01T19:45:31.210Z Error: Run heroku help for a list of available commands.
+2019-12-01T19:45:31.210Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-12-01T19:45:31.210Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:113:30)
+2019-12-01T19:45:31.210Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:39:10)
+2019-12-01T19:45:42.308Z Warning: Toolbelt is not a heroku command.
+2019-12-01T19:45:42.308Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-12-01T19:45:42.308Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2019-12-01T19:45:42.308Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2019-12-01T19:45:42.308Z     at async /usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2019-12-01T19:45:42.308Z     at async Promise.all (index 0)
+2019-12-01T19:45:42.308Z     at async Promise.all (index 33)
+2019-12-01T19:45:42.308Z     at async Config.runHook (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2019-12-01T19:45:42.308Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2019-12-01T19:45:42.308Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-12-01T19:45:42.308Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2019-12-01T19:45:45.105Z Error: Missing required flag:
+2019-12-01T19:45:45.105Z  -a, --app APP  app to run command against
+2019-12-01T19:45:45.105Z See more help with --help
+2019-12-01T19:45:45.105Z     at validateFlags (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/validate.js:53:27)
+2019-12-01T19:45:45.105Z     at Object.validate (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/validate.js:58:5)
+2019-12-01T19:45:45.105Z     at Object.parse (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/index.js:26:7)
+2019-12-01T19:45:45.105Z     at V5.parse (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:74:41)
+2019-12-01T19:45:45.105Z     at V5.run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/lib/index.js:90:52)
+2019-12-01T19:45:45.105Z     at V5._run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:34:31)
+2019-12-01T19:46:12.349Z Warning: Cannot open browser.
+2019-12-01T19:46:12.349Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-12-01T19:46:12.349Z     at showUrl (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:132:34)
+2019-12-01T19:46:12.349Z     at ChildProcess.<anonymous> (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:145:17)
+2019-12-01T19:46:12.349Z     at ChildProcess.emit (events.js:210:5)
+2019-12-01T19:46:12.349Z     at maybeClose (internal/child_process.js:1021:16)
+2019-12-01T19:46:12.349Z     at Socket.<anonymous> (internal/child_process.js:430:11)
+2019-12-01T19:46:12.349Z     at Socket.emit (events.js:210:5)
+2019-12-01T19:46:12.349Z     at Pipe.<anonymous> (net.js:658:12)
+2019-12-01T20:04:39.872Z Warning: Cannot open browser.
+2019-12-01T20:04:39.872Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-12-01T20:04:39.872Z     at showUrl (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:132:34)
+2019-12-01T20:04:39.872Z     at ChildProcess.<anonymous> (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:145:17)
+2019-12-01T20:04:39.872Z     at ChildProcess.emit (events.js:210:5)
+2019-12-01T20:04:39.872Z     at maybeClose (internal/child_process.js:1021:16)
+2019-12-01T20:04:39.872Z     at Socket.<anonymous> (internal/child_process.js:430:11)
+2019-12-01T20:04:39.872Z     at Socket.emit (events.js:210:5)
+2019-12-01T20:04:39.872Z     at Pipe.<anonymous> (net.js:658:12)
+2019-12-02T11:01:17.112Z Error: Missing required flag:
+2019-12-02T11:01:17.112Z  -a, --app APP  app to run command against
+2019-12-02T11:01:17.112Z See more help with --help
+2019-12-02T11:01:17.112Z     at validateFlags (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/validate.js:53:27)
+2019-12-02T11:01:17.112Z     at Object.validate (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/validate.js:58:5)
+2019-12-02T11:01:17.112Z     at Object.parse (/usr/local/lib/heroku/node_modules/@oclif/parser/lib/index.js:26:7)
+2019-12-02T11:01:17.112Z     at V5.parse (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:74:41)
+2019-12-02T11:01:17.112Z     at V5.run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/lib/index.js:90:52)
+2019-12-02T11:01:17.112Z     at V5._run (/usr/local/lib/heroku/node_modules/@oclif/plugin-legacy/node_modules/@oclif/command/lib/command.js:34:31)
